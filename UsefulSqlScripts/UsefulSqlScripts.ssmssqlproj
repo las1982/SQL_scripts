@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="UsefulSqlScripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="CZC20845Z3:CT\dhql">
+          <Created>2016-12-28T02:54:25.0187712-06:00</Created>
+          <Type>SQL</Type>
+          <Server>CZC20845Z3</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="GCWCNSQLV00645:CT\dhql">
+          <Created>2016-12-28T02:07:06.7905291-06:00</Created>
+          <Type>SQL</Type>
+          <Server>GCWCNSQLV00645</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="GMWCNSQLV00070:CT\dhql">
+          <Created>2016-12-28T02:30:08.5069658-06:00</Created>
+          <Type>SQL</Type>
+          <Server>GMWCNSQLV00070</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Connect to some servers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GMWCNSQLV00070:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GMWCNSQLV00070</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Connect to some servers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pivot - unpivot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GMWCNSQLV00070:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GMWCNSQLV00070</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Pivot - unpivot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedure OUTPUT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CZC20845Z3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CZC20845Z3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Procedure OUTPUT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RecursionDateAdd.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GCWCNSQLV00645:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GCWCNSQLV00645</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RecursionDateAdd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SelectFromValues.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CZC20845Z3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CZC20845Z3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SelectFromValues.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
